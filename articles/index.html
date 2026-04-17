@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Erik Vogt | Articles</title>
+  <meta name="description" content="Articles and analysis by Erik Vogt on AI, data services, localization, operating models, and business transformation." />
+  <style>
+    :root {
+      --bg: #fcfcfb;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --border: #e5e7eb;
+      --maxw: 960px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+    .wrap {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+    }
+    header {
+      margin-bottom: 40px;
+    }
+    .site-title {
+      font-size: 2.4rem;
+      line-height: 1.1;
+      margin: 0 0 10px;
+      color: #111827;
+    }
+    .site-subtitle {
+      max-width: 760px;
+      font-size: 1.08rem;
+      color: #374151;
+      margin: 0;
+    }
+    .section-label {
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 14px;
+    }
+    .articles {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.03);
+    }
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+    .card h2 a {
+      color: #111827;
+      text-decoration: none;
+    }
+    .card h2 a:hover {
+      color: var(--accent-dark);
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-bottom: 14px;
+    }
+    .excerpt {
+      font-size: 1rem;
+      color: #374151;
+      margin: 0 0 18px;
+    }
+    .cta {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+    .cta:hover {
+      background: var(--accent-dark);
+    }
+    .note {
+      margin-top: 42px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    @media (max-width: 640px) {
+      .site-title { font-size: 2rem; }
+      .card { padding: 20px; }
+      .card h2 { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="section-label">Erik Vogt</div>
+      <h1 class="site-title">Articles & Analysis</h1>
+      <p class="site-subtitle">
+        Writing on AI, data services, localization, operating models, and the business architecture required
+        to make complex systems perform under pressure.
+      </p>
+    </header>
+
+    <section>
+      <div class="section-label">Latest Article</div>
+      <div class="articles">
+        <article class="card">
+          <h2><a href="data-services-market-article.html">The New Data Services Market: Where the Real Opportunity Is Now</a></h2>
+          <div class="meta">April 17, 2026 · AI, Data Services, Market Analysis</div>
+          <p class="excerpt">
+            Data services used to mean annotation at scale. That is no longer enough to describe the market.
+            This article maps the major categories—from search relevance and computer vision to speech, physical AI,
+            multimodal systems, and model evaluation—and explains where the strongest business opportunity now sits.
+          </p>
+          <a class="cta" href="data-services-market-article.html">Read article</a>
+        </article>
+      </div>
+    </section>
+
+    <div class="note">
+      This homepage file was created as a clean publishing stub because your existing <code>index.html</code> was not present in the workspace.
+      If you upload your real homepage, I can merge this article into your live structure instead of replacing it.
+    </div>
+  </main>
+</body>
+</html>
