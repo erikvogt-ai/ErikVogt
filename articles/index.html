@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Erik Vogt | Articles</title>
+  <meta
+    name="description"
+    content="Articles and analysis by Erik Vogt on AI, data services, localization, operating models, and business transformation."
+  />
+  <style>
+    :root {
+      --bg: #fcfcfb;
+      --panel: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #0f766e;
+      --accent-dark: #115e59;
+      --border: #e5e7eb;
+      --maxw: 960px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: var(--maxw);
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+    }
+
+    header {
+      margin-bottom: 40px;
+    }
+
+    .top-nav {
+      margin-bottom: 22px;
+      font-size: 0.95rem;
+    }
+
+    .top-nav a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .top-nav a:hover {
+      color: var(--accent-dark);
+    }
+
+    .site-title {
+      font-size: 2.4rem;
+      line-height: 1.1;
+      margin: 0 0 10px;
+      color: #111827;
+    }
+
+    .site-subtitle {
+      max-width: 760px;
+      font-size: 1.08rem;
+      color: #374151;
+      margin: 0;
+    }
+
+    .section-label {
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 14px;
+      margin-top: 34px;
+    }
+
+    .articles {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.03);
+    }
+
+    .card h2 {
+      margin: 0 0 10px;
+      font-size: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .card h2 a {
+      color: #111827;
+      text-decoration: none;
+    }
+
+    .card h2 a:hover {
+      color: var(--accent-dark);
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-bottom: 14px;
+    }
+
+    .excerpt {
+      font-size: 1rem;
+      color: #374151;
+      margin: 0 0 18px;
+    }
+
+    .cta-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.95rem;
+    }
+
+    .cta:hover {
+      background: var(--accent-dark);
+    }
+
+    .cta.secondary {
+      background: transparent;
+      color: var(--accent);
+      border: 1px solid var(--border);
+    }
+
+    .cta.secondary:hover {
+      border-color: var(--accent);
+      color: var(--accent-dark);
+      background: #f8fafc;
+    }
+
+    .note {
+      margin-top: 42px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 640px) {
+      .site-title { font-size: 2rem; }
+      .card { padding: 20px; }
+      .card h2 { font-size: 1.3rem; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="top-nav"><a href="../index.html">← Back to home</a></div>
+      <div class="section-label">Erik Vogt</div>
+      <h1 class="site-title">Articles & Analysis</h1>
+      <p class="site-subtitle">
+        Writing on AI, data services, localization, operating models, procurement,
+        and the business architecture required to make complex systems perform under pressure.
+      </p>
+    </header>
+
+    <section>
+      <div class="section-label">Published on this site</div>
+      <div class="articles">
+        <article class="card">
+          <h2><a href="data-services-market-article.html">The New Data Services Market: Where the Real Opportunity Is Now</a></h2>
+          <div class="meta">April 2026 · AI, Data Services, Market Analysis</div>
+          <p class="excerpt">
+            Data services used to mean annotation at scale. That is no longer enough to describe the market.
+            This article maps the major categories—from search relevance and computer vision to speech, physical AI,
+            multimodal systems, and model evaluation—and explains where the strongest business opportunity now sits.
+          </p>
+          <div class="cta-row">
+            <a class="cta" href="data-services-market-article.html">Read article</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-label">Selected external publications</div>
+      <div class="articles">
+        <article class="card">
+          <h2>
+            <a href="https://www.weforum.org/publications/adopting-ai-responsibly-guidelines-for-procurement-of-ai-solutions-by-the-private-sector/" target="_blank" rel="noopener noreferrer">
+              Adopting AI Responsibly: Guidelines for Procurement of AI Solutions by the Private Sector
+            </a>
+          </h2>
+          <div class="meta">World Economic Forum · Report · June 2023</div>
+          <p class="excerpt">
+            A World Economic Forum white paper on responsible AI procurement, governance, transparency,
+            accountability, risk, and practical evaluation criteria for commercial organizations adopting AI solutions.
+          </p>
+          <div class="cta-row">
+            <a class="cta" href="https://www3.weforum.org/docs/WEF_Adopting_AI_Responsibly_Guidelines_for_Procurement_of_AI_Solutions_by_the_Private_Sector_2023.pdf" target="_blank" rel="noopener noreferrer">Open PDF</a>
+            <a class="cta secondary" href="https://www.weforum.org/publications/adopting-ai-responsibly-guidelines-for-procurement-of-ai-solutions-by-the-private-sector/" target="_blank" rel="noopener noreferrer">Publication page</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>
+            <a href="https://www.weforum.org/stories/2022/12/heres-why-language-coding-needs-an-uplift/" target="_blank" rel="noopener noreferrer">
+              Here’s why language coding needs an uplift to ISO 639-3
+            </a>
+          </h2>
+          <div class="meta">World Economic Forum · Article · December 2022</div>
+          <p class="excerpt">
+            A piece on why language coding standards matter more than most organizations realize, especially
+            where digital systems, multilingual operations, and business logic intersect.
+          </p>
+          <div class="cta-row">
+            <a class="cta" href="https://www.weforum.org/stories/2022/12/heres-why-language-coding-needs-an-uplift/" target="_blank" rel="noopener noreferrer">Read article</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2>
+            <a href="https://globalambitions.net/innovation-meets-infrastructure/" target="_blank" rel="noopener noreferrer">
+              Innovation Meets Infrastructure
+            </a>
+          </h2>
+          <div class="meta">Global Ambitions · Article · 2025</div>
+          <p class="excerpt">
+            A look at why AI innovation often stalls inside legacy localization environments:
+            procurement rigidity, legacy metrics, fragmented ecosystems, and the gap between technical capability
+            and operational infrastructure.
+          </p>
+          <div class="cta-row">
+            <a class="cta" href="https://globalambitions.net/innovation-meets-infrastructure/" target="_blank" rel="noopener noreferrer">Read article</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="note">
+      This page mixes original articles published on ErikVogt.com with selected external publications and contributions.
+    </div>
+  </main>
+</body>
+</html>
